@@ -25,17 +25,21 @@ is just a production build of the heroes-app folder, created by running:
 ```
 ng build -prod
 ```
+while at the root of the heroes-app folder.
 
 The resulting dist folder that is produced from this command was copied to the
-heroes-server folder and renamed 'public'.
+heroes-server folder and renamed 'public'. To run the build command yourself,
+you will have to globally install angular-cli using npm.
 
-You can run this project by entering the heroes-server folder and typing:
+
+You can run the production version of this project by entering the heroes-server folder and typing:
 
 ```
-node app.js
+> npm install
+> node app.js
 ```
 
-You can access the program by loading up a browser and visiting:
+and then accessing the program by loading up a browser and visiting:
 
 http://localhost:3333
 
