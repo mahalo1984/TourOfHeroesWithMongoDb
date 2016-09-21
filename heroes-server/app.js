@@ -69,6 +69,14 @@ router.del('/api/delete-hero/:id', function *(){
   this.body = yield heroes.remove({hid: hid});
 });
 
+//Search route
+router.get('/api/hero-search', koaBody, function *(){
+  let regexStr = `.*${this.query.name}.*`;
+  let result = yield heroes.find({"name" : {$regex : regexStr}});
+
+  this.body = {"data": result}
+});
+
 
 //default route
 app.use(function *() {
