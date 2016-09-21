@@ -3,9 +3,9 @@
 This code falls under the following license:
 https://creativecommons.org/licenses/by/4.0/
 
-It is a version of the Tour of Heroes Tutorial for Angular on the documentation
-website with a Mongodb back-end added. You can find the original tutorial for
-the front-end here on the Angular documentation website:
+It is a version of the Tour of Heroes Tutorial, from the Angular documentation
+website, with a Mongodb back-end added. You can find the original tutorial for
+the front-end here:
 
 https://angular.io/docs/ts/latest/tutorial/
 
