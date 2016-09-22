@@ -45,8 +45,8 @@ you will have to globally install angular-cli using npm.
 You can run this project by entering the heroes-server folder and typing:
 
 ```
->npm install;
->node app.js;
+>npm install
+>node app.js
 ```
 
 and then accessing the program by loading up a browser and visiting:
